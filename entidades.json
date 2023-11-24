@@ -1,0 +1,100 @@
+{
+   "entidades": [
+        {
+            "entidad": 1,
+            "incidentes": [
+                {
+                    "fechaApertura": "2023-09-01",
+                    "fechaCierre": "2023-09-16",
+                    "miembrosAfectados": 47
+                },
+                {
+                    "fechaApertura": "2023-08-15",
+                    "fechaCierre": "2023-08-25",
+                    "miembrosAfectados": 32
+                },
+                {
+                    "fechaApertura": "2023-07-10",
+                    "fechaCierre": "2023-07-21",
+                    "miembrosAfectados": 22
+                }
+            ]
+        },
+        {
+            "entidad": 2,
+            "incidentes": [
+                {
+                    "fechaApertura": "2023-09-03",
+                    "fechaCierre": "2023-09-09",
+                    "miembrosAfectados": 12
+                },
+                {
+                    "fechaApertura": "2023-08-18",
+                    "fechaCierre": "2023-08-23",
+                    "miembrosAfectados": 8
+                }
+            ]
+        },
+        {
+            "entidad": 3,
+            "incidentes": [
+                {
+                    "fechaApertura": "2023-08-25",
+                    "fechaCierre": "2023-09-18",
+                    "miembrosAfectados": 89
+                },
+                {
+                    "fechaApertura": "2023-07-30",
+                    "fechaCierre": "2023-08-05",
+                    "miembrosAfectados": 45
+                }
+            ]
+        },
+        {
+            "entidad": 4,
+            "incidentes": [
+                {
+                    "fechaApertura": "2023-08-10",
+                    "fechaCierre": "2023-08-19",
+                    "miembrosAfectados": 34
+                },
+                {
+                    "fechaApertura": "2023-07-05",
+                    "fechaCierre": "2023-07-15",
+                    "miembrosAfectados": 19
+                }
+            ]
+        },
+        {
+            "entidad": 5,
+            "incidentes": [
+                {
+                    "fechaApertura": "2023-07-20",
+                    "fechaCierre": "2023-07-27",
+                    "miembrosAfectados": 63
+                },
+                {
+                    "fechaApertura": "2023-06-25",
+                    "fechaCierre": "2023-07-03",
+                    "miembrosAfectados": 28
+                }
+            ]
+        },
+        {
+            "entidad": 6,
+            "incidentes": [
+                {
+                    "fechaApertura": "2023-06-15",
+                    "fechaCierre": "2023-06-25",
+                    "miembrosAfectados": 17
+                },
+                {
+                    "fechaApertura": "2023-05-28",
+                    "fechaCierre": "2023-06-05",
+                    "miembrosAfectados": 11
+                }
+            ]
+        }
+   ]
+}
+
