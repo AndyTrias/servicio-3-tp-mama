@@ -39,6 +39,7 @@ def sort_json():
     except Exception as e:
         mensaje = 'Ocurrió un error al procesar la solicitud.'
         detalles = str(e)
+        print(detalles)
         return jsonify({'error': mensaje, 'details': detalles}), 500
 
 if __name__ == '__main__':
