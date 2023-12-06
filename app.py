@@ -2,7 +2,7 @@ from datetime import datetime
 from flask import Flask, request, jsonify
 
 # Coeficiente de no resueltos
-CNF = 4.5
+CNF = 1.3
 
 def tiempoResolucion(incidente):
     fechaAperura = datetime.strptime(incidente['fechaApertura'], '%Y-%m-%d')
@@ -33,7 +33,12 @@ def sort_json():
 
         entidades = data.get('entidades')
 
-        sorted_data = sorted(entidades, key=criterioRanking, reverse=False)
+        # Modify sorting logic to include "valor" key
+        sorted_data = sorted(entidades, key=lambda entidad: (criterioRanking(entidad), entidad['entidad']), reverse=False)
+
+        # Add "valor" key to each entity in the output
+        for entidad in sorted_data:
+            entidad['valor'] = criterioRanking(entidad)
 
         return jsonify({'entidades': sorted_data}), 200
     except Exception as e:
