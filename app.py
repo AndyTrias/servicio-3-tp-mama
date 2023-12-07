@@ -34,7 +34,7 @@ def sort_json():
         entidades = data.get('entidades')
 
         # Modify sorting logic to include "valor" key
-        sorted_data = sorted(entidades, key=lambda entidad: (criterioRanking(entidad), entidad['entidad']), reverse=False)
+        sorted_data = sorted(entidades, key=lambda entidad: (criterioRanking(entidad), entidad['id']), reverse=False)
 
         # Add "valor" key to each entity in the output
         for entidad in sorted_data:
